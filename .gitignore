@@ -1,0 +1,18 @@
+# Ignore large files
+*.nii.gz
+*.pth
+*.h5
+*.onnx
+*.ckpt
+*.pb
+__pycache__/
+*.log
+.DS_Store
+.vscode/
+.idea/
+
+miniconda3/
+# Ignore dataset files if they are not part of the repo
+/data/
+/dataset/
+
